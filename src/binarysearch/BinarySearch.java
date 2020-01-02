@@ -15,17 +15,17 @@ public class BinarySearch {
     Scanner input = new Scanner(System.in);
     System.out.println("Welcome to Binary Search");
     System.out.println("Input The Size of the Array");
-    int x = input.nextInt();
+    int x = 5;
     int [] array = new int [x]; // x is the size of the Array
     
-    System.out.println("Input the Value of the Array");
-    int i = 0;
-    while (i<x){
-     array[i] = input.nextInt(); // i is the value of the Array
-     i++;
-    }
+    array[0] = 1;
+    array[1] = 2;
+    array[2] = 5;
+    array[3] = 6;
+    array[4] = 8;
+    array[5] = 10;
     System.out.println("Enter the Value that you want to search!");
-    int number = input.nextInt(); // number is the value to be searched
+    int number = 6; // number is the value to be searched
     int low = 0;
     int mid = 0;
     int high = x-1;

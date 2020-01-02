@@ -23,7 +23,6 @@ public class BinarySearch {
     array[2] = 5;
     array[3] = 6;
     array[4] = 8;
-    array[5] = 10;
     System.out.println("Enter the Value that you want to search!");
     int number = 6; // number is the value to be searched
     int low = 0;

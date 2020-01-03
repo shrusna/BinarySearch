@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package binarysearch;
-import java.util.Scanner;
 
 /**
  *
@@ -12,7 +11,6 @@ import java.util.Scanner;
  */
 public class BinarySearch {
     public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
     System.out.println("Welcome to Binary Search");
     System.out.println("Input The Size of the Array");
     int x = 5;
@@ -23,7 +21,7 @@ public class BinarySearch {
     array[2] = 5;
     array[3] = 6;
     array[4] = 8;
-    System.out.println("Enter the Value that you want to search!");
+    System.out.println("Enter the Value that you want to search !");
     int number = 6; // number is the value to be searched
     int low = 0;
     int mid = 0;
@@ -35,7 +33,7 @@ public class BinarySearch {
         
         if(array[mid] == number){
             System.out.println("The value that you are looking for");
-            System.out.println("is found at index"+ mid );
+            System.out.println("is found at index "+ mid );
             break;}
         else if(array[mid] > number){
             high = mid - 1;
